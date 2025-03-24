@@ -1,0 +1,22 @@
+digite:git init
+
+depois: git add .
+(manter os mesmos espaços↑)
+-------------------------------------------------------------------------------------------------------------------------------
+git commit -m "..."
+(escreva o nome do commit entre as aspas↑)
+-------------------------------------------------------------------------------------------------------------------------------
+Para criar um commit de um arquivo:
+ git add (nome do arquivo.Formato)
+ex; texto.txt, foto.png
+Depois git push -u origin main
+-------------------------------------------------------------------------------------------------------------------------------
+Para conectar ao git hub: 
+git remote add (link do repositório do git hub)
+ex; git remote add origin https://github.com/IsaccElsantos/exercicio_3.git
+-------------------------------------------------------------------------------------------------------------------------------
+para enviar da pasta do pc para o repositório do git:
+
+git add (nome do arquivo.formato)
+git commit -m "nome do commit"
+git push -u origin main
